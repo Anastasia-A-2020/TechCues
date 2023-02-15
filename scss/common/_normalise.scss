@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+}
+
+ul,
+button{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+
+  background-color: #FFFFFF;
+}
+
+.container{
+  width: 1220px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+

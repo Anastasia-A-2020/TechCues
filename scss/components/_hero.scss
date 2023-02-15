@@ -1,0 +1,92 @@
+.hero{
+  
+  padding-top: 128px;
+  
+}
+
+.hero__container{
+  position: relative;
+  display: flex;
+  background-color: #FFFFFF;
+
+  border: 1px solid #EBEAF2;
+  // box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+  border-radius: 8px;
+}
+
+.hero__info{
+  padding-top: 65px;
+  padding-left: 48px;
+  padding-right: 101px;
+
+  &::before{
+    position: absolute;
+    left: 0;
+    
+    content: "";
+    display: inline-block;
+    height: 432px;
+    width: 4px;
+    background-color: $accent-color;
+  }
+ }
+
+
+
+.hero__title{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.286;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: $accent-color;
+
+  margin-bottom: 33px;
+}
+
+.hero__desc{
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.476;
+  letter-spacing: 1px;
+
+  color: $main-text-color;
+
+  margin-bottom: 29px;
+}
+
+.hero__man{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: $main-text-color;
+}
+
+.hero__date{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.538;
+  color: $secondary-text-color;
+}
+
+.hero__img{
+  background-color: $accent-color;
+}
+
+.back-ground-pic{
+  position: absolute;
+  z-index: -1;
+  top: -48px;
+  right: -96px;
+}
+
+.back-ground-pic--bottom{
+  top: 241px;
+  left: -56px;
+}

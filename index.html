@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&family=Inter&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>TechCues</title>
+  </head>
+  <body>
+    <header class="pre-header">
+      <div class="container">
+        <p>Discover how you can scale your data with TechCues</p>
+        <a href="#">Learn More</a>
+      </div>
+    </header>
+
+    <header class="page-header">
+      <div class="container">
+        <a href="#" class="logo"> <img src="./images/logo.png" alt="logo" class="logo__image" /></a>
+        <nav class="page-nav">
+          <ul class="list page-nav__list">
+            <li class="page-nav__item">
+              <!-- <select name="categories" id="categories">
+                <option value="Categories">Categories</option>
+                <option value="Recent Articles">Recent Articles</option>
+                <option value="Case Studies">Case Studies</option>
+                <option value="Mobile Technology">Mobile Technology</option>
+              </select> -->
+              Categories
+            </li>
+            <li class="page-nav__item">Authors</li>
+            <li class="page-nav__item">Template</li>
+          </ul>
+        </nav>
+
+        <div class="registration">
+          <button type="button" class="btn-search">
+            <svg width="32" height="32">
+              <use href="./images/symbol-defs.svg#icon-glass"></use>
+            </svg>
+          </button>
+          <button type="button" class="btn-sing-in">Subscribe</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__info">
+          <h1 class="hero__title">Mobile Technology</h1>
+          <p class="hero__desc">
+            Technology in Sales: How Data is Powering Purchase Decisions
+          </p>
+          <p class="hero__man">Milford Smith</p>
+          <p class="hero__date">February 12, 2021</p>
+        </div>
+        <img src="./images/laser-big.jpg" alt="laser" class="hero__img" />
+
+        <img src="./images/back-graund-pic.jpg" alt="arrows" width="404" class="back-ground-pic" />
+        <img
+          src="./images/back-graund-pic.jpg"
+          alt="arrows"
+          width="404"
+          class="back-ground-pic back-ground-pic--bottom"
+        />
+      </div>
+    </section>
+
+    <section class="articles">
+      <div class="container">
+        <div class="articles__info">
+          <h2 class="articles__name">Recent Articles</h2>
+          <div class="turnabout">
+            <p class="turnabout articles__desc">
+              View All
+            </p>
+            <svg width="15" class="icon">
+              <use href="./images/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </div>
+        </div>
+        <ul class="grid">
+          <li class="grid__item">
+            <article class="product">
+              <img class="product__image" src="./images/laser-small.jpg" alt="laser" />
+              <div class="product__desc">
+                <h3 class="product__name">Mobile Technology</h3>
+                <p class="product__owner">Adell Jacobi</p>
+                <p class="product__text">Best Technology Podcast Episodes of 2020</p>
+              </div>
+            </article>
+          </li>
+          <li class="grid__item">
+            <article class="product">
+              <img class="product__image" src="./images/ciercles-small.jpg" alt="ciercles" />
+              <div class="product__desc">
+                <h3 class="product__name">Case Studies</h3>
+                <p class="product__owner">Adell Jacobi</p>
+                <p class="product__text">Drive Efficient Growth with Integrated Data</p>
+              </div>
+            </article>
+          </li>
+          <li class="grid__item">
+            <article class="product">
+              <img class="product__image" src="./images/lightning.jpg" alt="lightning" />
+              <div class="product__desc">
+                <h3 class="product__name">Case Studies</h3>
+                <p class="product__owner">Adell Jacobi</p>
+                <p class="product__text">The Benefits of Data-Driven Storytelling with TechCues</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- <section class="registration">
+      <div class="container">
+        <div class="registration__container">
+          <span class="registration__link">Free ebook</span>
+          <p class="registration__desk">5 Things You Can Do Right Now to Speed up Your Workflow</p>
+        </div>
+        <ul class="list registration__list">
+          <li class="registration__item link"><a href="#">Email address</a></li>
+          <li class="registration__item link"><a href="#">suscribe</a></li>
+        </ul>
+      </div>
+    </section> -->
+    <footer class="post-footer">
+      <div class="container post-footer__container">
+        <p class="post-footer__text">&#169; 2020 TechCues Blog Template</p>
+        <p class="post-footer__text">Created with &#10084; by Chad Morgan</p>
+        <p class="post-footer__text">Powered by Webflow</p>
+      </div>
+    </footer>
+    <script src="./test.js" type="module" defer></script>
+  </body>
+</html>

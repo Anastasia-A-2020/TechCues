@@ -1,0 +1,19 @@
+.pre-header{
+
+  background-color: #111131;
+  color: #ABABFA;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 2.231;
+  text-align: center;
+}
+
+.container{
+  .pre-header &{
+    @extend %flex-element-center;
+  }
+
+  & a{
+    margin-left: 8px;
+  }
+}

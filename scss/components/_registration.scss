@@ -1,0 +1,40 @@
+.registration {
+  margin-bottom: 128px;
+}
+.registration > .container {
+  display: flex;
+  background-color: #111131;
+  padding: 48px;
+  border-radius: 8px;
+}
+
+.registration__container{
+  margin-right: 56px;
+  width: 534px;
+}
+
+.registration__link {
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.384;
+
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: #5C5CFF;
+}
+
+.registration__desk{
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 1.613;
+
+  letter-spacing: 1px;
+
+  color: #FFFFFF;
+}
+
+.registration__list{
+  padding-top: 30px;
+}
